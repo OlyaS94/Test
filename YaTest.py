@@ -5,7 +5,7 @@ from yadisk import YaFolderCreator
 
 class TestYaDisk(unittest.TestCase):
   def setUp(self):
-    self.uploader = YaFolderCreator('AQAAAABE_kNnAADLW-5MFTceh0WFpUfovOhDDvQ')
+    self.uploader = YaFolderCreator('') #здесь необходимо ввести свой токен
 
   def test_create_folder(self):
     directory = 'PyTest'
